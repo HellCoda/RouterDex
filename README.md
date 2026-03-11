@@ -1,8 +1,6 @@
 # RouterDex
 
-![RouterDex Screenshot]
-
-(screenshot.png)
+![RouterDex Screenshot](screenshot.png)
 
 Catalogue interactif des modèles IA disponibles sur [OpenRouter](https://openrouter.ai).
 
