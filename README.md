@@ -1,7 +1,43 @@
-# Tauri + Vanilla TS
+# RouterDex
 
-This template should help get you started developing with Tauri in vanilla HTML, CSS and Typescript.
+![RouterDex Screenshot](screenshot.png)
 
-## Recommended IDE Setup
+Catalogue interactif des modèles IA disponibles sur [OpenRouter](https://openrouter.ai).
 
-- [VS Code](https://code.visualstudio.com/) + [Tauri](https://marketplace.visualstudio.com/items?itemName=tauri-apps.tauri-vscode) + [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer)
+## Fonctionnalités
+
+- 📊 **Leaderboard** — Top modèles par utilisation (mise à jour hebdomadaire)
+- 🔍 **Recherche & filtres** — Par provider, catégorie, prix
+- 📋 **Comparaison** — Jusqu'à 4 modèles côte à côte
+- 💾 **Export JSON** — Exporter les données des modèles
+
+## Catégories
+
+- Text, Multimodal, Image, Audio
+- Modèles gratuits, Reasoning, Code
+
+## Installation
+
+### Depuis les releases
+Télécharger le `.exe` (Windows) (https://github.com/CamilleMMi/RouterDex/releases).
+
+### Développement
+```bash
+npm install
+npm run dev
+```
+
+### Build
+Nécessite [Rust](https://rustup.rs/).
+```bash
+npm run tauri build
+```
+
+## Données
+
+- Modèles : [OpenRouter API](https://openrouter.ai/api/v1/models)
+- Leaderboard : Mise à jour hebdomadaire depuis [routerdex-data](https://github.com/HellCoda/RouterDex/blob/main/public/data/leaderboard.json)
+
+## Licence
+
+MIT
