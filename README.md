@@ -19,7 +19,16 @@ Catalogue interactif des modèles IA disponibles sur [OpenRouter](https://openro
 ## Installation
 
 ### Depuis les releases
-Télécharger le `.exe` (Windows) (https://github.com/CamilleMMi/RouterDex/releases).
+Télécharger le `.exe` (Windows) (https://github.com/HellCoda/RouterDex/releases/tag/RouterDex).
+
+### Build
+Nécessite [Rust](https://rustup.rs/).
+```bash
+npm run tauri build
+```
+Linux - Mac
+
+https://github.com/HellCoda/RouterDex/blob/main/.github/workflows/build.yml
 
 ### Développement
 ```bash
@@ -27,11 +36,6 @@ npm install
 npm run dev
 ```
 
-### Build
-Nécessite [Rust](https://rustup.rs/).
-```bash
-npm run tauri build
-```
 
 ## Données
 
