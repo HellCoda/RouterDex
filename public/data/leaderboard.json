@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-13T19:25:59Z",
+  "updated": "2026-03-14T11:49:50Z",
   "source": "https://openrouter.ai/rankings",
   "scraper_version": "1.5",
   "top_models": [
@@ -8,9 +8,9 @@
       "model_id": "minimax/minimax-m2.5",
       "name": "MiniMax M2.5",
       "provider": "minimax",
-      "tokens": "1.95T",
-      "tokens_raw": 1950000000000,
-      "change_pct": 15,
+      "tokens": "1.89T",
+      "tokens_raw": 1890000000000,
+      "change_pct": 8,
       "change_direction": "up"
     },
     {
@@ -18,9 +18,9 @@
       "model_id": "stepfun/step-3.5-flash:free",
       "name": "Step 3.5 Flash (free)",
       "provider": "stepfun",
-      "tokens": "1.16T",
-      "tokens_raw": 1160000000000,
-      "change_pct": 109,
+      "tokens": "1.23T",
+      "tokens_raw": 1230000000000,
+      "change_pct": 101,
       "change_direction": "up"
     },
     {
@@ -28,9 +28,9 @@
       "model_id": "google/gemini-3-flash-preview",
       "name": "Gemini 3 Flash Preview",
       "provider": "google",
-      "tokens": "1.01T",
-      "tokens_raw": 1010000000000,
-      "change_pct": 8,
+      "tokens": "1.02T",
+      "tokens_raw": 1020000000000,
+      "change_pct": 6,
       "change_direction": "down"
     },
     {
@@ -38,9 +38,9 @@
       "model_id": "deepseek/deepseek-v3.2",
       "name": "DeepSeek V3.2",
       "provider": "deepseek",
-      "tokens": "976B",
-      "tokens_raw": 976000000000,
-      "change_pct": 29,
+      "tokens": "995B",
+      "tokens_raw": 995000000000,
+      "change_pct": 27,
       "change_direction": "up"
     },
     {
@@ -48,9 +48,9 @@
       "model_id": "anthropic/claude-sonnet-4.6",
       "name": "Claude Sonnet 4.6",
       "provider": "anthropic",
-      "tokens": "823B",
-      "tokens_raw": 823000000000,
-      "change_pct": 18,
+      "tokens": "861B",
+      "tokens_raw": 861000000000,
+      "change_pct": 27,
       "change_direction": "up"
     },
     {
@@ -58,9 +58,9 @@
       "model_id": "anthropic/claude-opus-4.6",
       "name": "Claude Opus 4.6",
       "provider": "anthropic",
-      "tokens": "771B",
-      "tokens_raw": 771000000000,
-      "change_pct": 3,
+      "tokens": "784B",
+      "tokens_raw": 784000000000,
+      "change_pct": 1,
       "change_direction": "up"
     },
     {
@@ -68,9 +68,9 @@
       "model_id": "x-ai/grok-4.1-fast",
       "name": "Grok 4.1 Fast",
       "provider": "x-ai",
-      "tokens": "595B",
-      "tokens_raw": 595000000000,
-      "change_pct": 6,
+      "tokens": "589B",
+      "tokens_raw": 589000000000,
+      "change_pct": 3,
       "change_direction": "up"
     },
     {
@@ -78,9 +78,9 @@
       "model_id": "moonshotai/kimi-k2.5",
       "name": "Kimi K2.5",
       "provider": "moonshotai",
-      "tokens": "560B",
-      "tokens_raw": 560000000000,
-      "change_pct": 36,
+      "tokens": "567B",
+      "tokens_raw": 567000000000,
+      "change_pct": 31,
       "change_direction": "down"
     },
     {
@@ -88,9 +88,9 @@
       "model_id": "google/gemini-2.5-flash",
       "name": "Gemini 2.5 Flash",
       "provider": "google",
-      "tokens": "544B",
-      "tokens_raw": 544000000000,
-      "change_pct": 5,
+      "tokens": "555B",
+      "tokens_raw": 555000000000,
+      "change_pct": 7,
       "change_direction": "up"
     },
     {
@@ -98,9 +98,9 @@
       "model_id": "openai/gpt-oss-120b",
       "name": "gpt-oss-120b",
       "provider": "openai",
-      "tokens": "508B",
-      "tokens_raw": 508000000000,
-      "change_pct": 27,
+      "tokens": "498B",
+      "tokens_raw": 498000000000,
+      "change_pct": 20,
       "change_direction": "up"
     },
     {
@@ -108,9 +108,9 @@
       "model_id": "arcee-ai/trinity-large-preview:free",
       "name": "Trinity Large Preview (free)",
       "provider": "arcee-ai",
-      "tokens": "485B",
-      "tokens_raw": 485000000000,
-      "change_pct": 13,
+      "tokens": "476B",
+      "tokens_raw": 476000000000,
+      "change_pct": 14,
       "change_direction": "down"
     },
     {
@@ -118,9 +118,9 @@
       "model_id": "anthropic/claude-sonnet-4.5",
       "name": "Claude Sonnet 4.5",
       "provider": "anthropic",
-      "tokens": "460B",
-      "tokens_raw": 460000000000,
-      "change_pct": 13,
+      "tokens": "437B",
+      "tokens_raw": 437000000000,
+      "change_pct": 17,
       "change_direction": "down"
     },
     {
@@ -128,8 +128,8 @@
       "model_id": "google/gemini-2.5-flash-lite",
       "name": "Gemini 2.5 Flash Lite",
       "provider": "google",
-      "tokens": "425B",
-      "tokens_raw": 425000000000,
+      "tokens": "428B",
+      "tokens_raw": 428000000000,
       "change_pct": 6,
       "change_direction": "up"
     },
@@ -138,69 +138,69 @@
       "model_id": "openai/gpt-5-nano",
       "name": "GPT-5 Nano",
       "provider": "openai",
-      "tokens": "331B",
-      "tokens_raw": 331000000000,
-      "change_pct": 41,
+      "tokens": "316B",
+      "tokens_raw": 316000000000,
+      "change_pct": 21,
       "change_direction": "up"
     },
     {
       "rank": 15,
-      "model_id": "z-ai/glm-5",
-      "name": "GLM 5",
-      "provider": "z-ai",
-      "tokens": "269B",
-      "tokens_raw": 269000000000,
-      "change_pct": 20,
-      "change_direction": "down"
-    },
-    {
-      "rank": 16,
       "model_id": "google/gemini-3.1-pro-preview",
       "name": "Gemini 3.1 Pro Preview",
       "provider": "google",
-      "tokens": "263B",
-      "tokens_raw": 263000000000,
-      "change_pct": 50,
+      "tokens": "280B",
+      "tokens_raw": 280000000000,
+      "change_pct": 55,
       "change_direction": "up"
     },
     {
+      "rank": 16,
+      "model_id": "z-ai/glm-5",
+      "name": "GLM 5",
+      "provider": "z-ai",
+      "tokens": "276B",
+      "tokens_raw": 276000000000,
+      "change_pct": 17,
+      "change_direction": "down"
+    },
+    {
       "rank": 17,
-      "model_id": "anthropic/claude-haiku-4.5",
-      "name": "Claude Haiku 4.5",
-      "provider": "anthropic",
-      "tokens": "230B",
-      "tokens_raw": 230000000000,
-      "change_pct": 19,
+      "model_id": "xiaomi/mimo-v2-flash",
+      "name": "MiMo-V2-Flash",
+      "provider": "xiaomi",
+      "tokens": "244B",
+      "tokens_raw": 244000000000,
+      "change_pct": 266,
       "change_direction": "up"
     },
     {
       "rank": 18,
-      "model_id": "openai/gpt-5.4",
-      "name": "GPT-5.4",
-      "provider": "openai",
-      "tokens": "202B",
-      "tokens_raw": 202000000000,
-      "change_pct": 416,
+      "model_id": "anthropic/claude-haiku-4.5",
+      "name": "Claude Haiku 4.5",
+      "provider": "anthropic",
+      "tokens": "243B",
+      "tokens_raw": 243000000000,
+      "change_pct": 24,
       "change_direction": "up"
     },
     {
       "rank": 19,
-      "model_id": "openai/gpt-4o-mini",
-      "name": "GPT-4o-mini",
-      "provider": "openai",
-      "tokens": "202B",
-      "tokens_raw": 202000000000,
-      "change_pct": 43,
-      "change_direction": "up"
+      "model_id": "openrouter/hunter-alpha",
+      "name": "Hunter Alpha",
+      "provider": "openrouter",
+      "tokens": "214B",
+      "tokens_raw": 214000000000,
+      "change_pct": 0,
+      "change_direction": "none"
     },
     {
       "rank": 20,
-      "model_id": "xiaomi/mimo-v2-flash",
-      "name": "MiMo-V2-Flash",
-      "provider": "xiaomi",
-      "tokens": "196B",
-      "tokens_raw": 196000000000,
-      "change_pct": 180,
+      "model_id": "openai/gpt-5.4",
+      "name": "GPT-5.4",
+      "provider": "openai",
+      "tokens": "208B",
+      "tokens_raw": 208000000000,
+      "change_pct": 647,
       "change_direction": "up"
     }
   ],
@@ -210,8 +210,8 @@
       "name": "OpenClaw",
       "url": "https://openclaw.ai/",
       "description": "The AI that actually does things",
-      "tokens": "468B",
-      "tokens_raw": 468000000000
+      "tokens": "495B",
+      "tokens_raw": 495000000000
     },
     {
       "rank": 2,
@@ -226,64 +226,64 @@
       "name": "Claude Code",
       "url": "https://claude.ai/",
       "description": "The AI for problem solvers",
-      "tokens": "80.3B",
-      "tokens_raw": 80300000000
+      "tokens": "81.2B",
+      "tokens_raw": 81200000000
     },
     {
       "rank": 4,
       "name": "Descript",
       "url": "https://descript.com/",
       "description": "AI Video & Podcast Editor",
-      "tokens": "43.5B",
-      "tokens_raw": 43500000000
+      "tokens": "44.6B",
+      "tokens_raw": 44600000000
     },
     {
       "rank": 5,
       "name": "Janitor AI",
       "url": "https://janitorai.com/",
       "description": "Character chat and creation",
-      "tokens": "31.7B",
-      "tokens_raw": 31700000000
+      "tokens": "32B",
+      "tokens_raw": 32000000000
     },
     {
       "rank": 6,
       "name": "Cline",
       "url": "https://cline.bot/",
       "description": "Autonomous coding agent right in your IDE",
-      "tokens": "27.3B",
-      "tokens_raw": 27300000000
+      "tokens": "28.5B",
+      "tokens_raw": 28500000000
     },
     {
       "rank": 7,
-      "name": "BLACKBOXAI",
-      "url": "https://blackbox.ai/",
-      "description": "AI agent for builders",
-      "tokens": "24.1B",
-      "tokens_raw": 24100000000
-    },
-    {
-      "rank": 8,
       "name": "ISEKAI ZERO",
       "url": "https://www.isekai.world/",
       "description": "AI adventures. Travel with your favorite characters",
-      "tokens": "23.1B",
-      "tokens_raw": 23100000000
+      "tokens": "25B",
+      "tokens_raw": 25000000000
     },
     {
-      "rank": 9,
+      "rank": 8,
       "name": "Roo Code",
       "url": "https://github.com/RooVetGit/Roo-Cline",
       "description": "A whole dev team of AI agents in your editor",
-      "tokens": "19.3B",
-      "tokens_raw": 19300000000
+      "tokens": "22.6B",
+      "tokens_raw": 22600000000
     },
     {
-      "rank": 10,
+      "rank": 9,
       "name": "Lemonade",
       "url": "https://lemonade.gg/",
       "description": "The AI tool for Roblox games.",
-      "tokens": "17.1B",
-      "tokens_raw": 17100000000
+      "tokens": "15.9B",
+      "tokens_raw": 15900000000
+    },
+    {
+      "rank": 10,
+      "name": "SillyTavern",
+      "url": "https://sillytavern.app/",
+      "description": "LLM frontend for power users",
+      "tokens": "7.86B",
+      "tokens_raw": 7860000000
     }
   ],
   "market_share": [],
