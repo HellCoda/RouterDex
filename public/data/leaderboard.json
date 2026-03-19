@@ -1,206 +1,206 @@
 {
-  "updated": "2026-03-14T11:49:50Z",
+  "updated": "2026-03-19T18:00:02Z",
   "source": "https://openrouter.ai/rankings",
   "scraper_version": "1.5",
   "top_models": [
     {
       "rank": 1,
-      "model_id": "minimax/minimax-m2.5",
-      "name": "MiniMax M2.5",
-      "provider": "minimax",
-      "tokens": "1.89T",
-      "tokens_raw": 1890000000000,
-      "change_pct": 8,
+      "model_id": "openrouter/hunter-alpha",
+      "name": "Hunter Alpha",
+      "provider": "openrouter",
+      "tokens": "1.57T",
+      "tokens_raw": 1570000000000,
+      "change_pct": 705,
       "change_direction": "up"
     },
     {
       "rank": 2,
-      "model_id": "stepfun/step-3.5-flash:free",
-      "name": "Step 3.5 Flash (free)",
-      "provider": "stepfun",
-      "tokens": "1.23T",
-      "tokens_raw": 1230000000000,
-      "change_pct": 101,
-      "change_direction": "up"
+      "model_id": "minimax/minimax-m2.5",
+      "name": "MiniMax M2.5",
+      "provider": "minimax",
+      "tokens": "1.52T",
+      "tokens_raw": 1520000000000,
+      "change_pct": 24,
+      "change_direction": "down"
     },
     {
       "rank": 3,
-      "model_id": "google/gemini-3-flash-preview",
-      "name": "Gemini 3 Flash Preview",
-      "provider": "google",
-      "tokens": "1.02T",
-      "tokens_raw": 1020000000000,
-      "change_pct": 6,
-      "change_direction": "down"
+      "model_id": "stepfun/step-3.5-flash:free",
+      "name": "Step 3.5 Flash (free)",
+      "provider": "stepfun",
+      "tokens": "1.35T",
+      "tokens_raw": 1350000000000,
+      "change_pct": 26,
+      "change_direction": "up"
     },
     {
       "rank": 4,
       "model_id": "deepseek/deepseek-v3.2",
       "name": "DeepSeek V3.2",
       "provider": "deepseek",
-      "tokens": "995B",
-      "tokens_raw": 995000000000,
-      "change_pct": 27,
+      "tokens": "1.1T",
+      "tokens_raw": 1100000000000,
+      "change_pct": 17,
       "change_direction": "up"
     },
     {
       "rank": 5,
-      "model_id": "anthropic/claude-sonnet-4.6",
-      "name": "Claude Sonnet 4.6",
-      "provider": "anthropic",
-      "tokens": "861B",
-      "tokens_raw": 861000000000,
-      "change_pct": 27,
-      "change_direction": "up"
-    },
-    {
-      "rank": 6,
-      "model_id": "anthropic/claude-opus-4.6",
-      "name": "Claude Opus 4.6",
-      "provider": "anthropic",
-      "tokens": "784B",
-      "tokens_raw": 784000000000,
-      "change_pct": 1,
-      "change_direction": "up"
-    },
-    {
-      "rank": 7,
-      "model_id": "x-ai/grok-4.1-fast",
-      "name": "Grok 4.1 Fast",
-      "provider": "x-ai",
-      "tokens": "589B",
-      "tokens_raw": 589000000000,
+      "model_id": "google/gemini-3-flash-preview",
+      "name": "Gemini 3 Flash Preview",
+      "provider": "google",
+      "tokens": "1.02T",
+      "tokens_raw": 1020000000000,
       "change_pct": 3,
       "change_direction": "up"
     },
     {
-      "rank": 8,
-      "model_id": "moonshotai/kimi-k2.5",
-      "name": "Kimi K2.5",
-      "provider": "moonshotai",
-      "tokens": "567B",
-      "tokens_raw": 567000000000,
-      "change_pct": 31,
-      "change_direction": "down"
+      "rank": 6,
+      "model_id": "anthropic/claude-sonnet-4.6",
+      "name": "Claude Sonnet 4.6",
+      "provider": "anthropic",
+      "tokens": "972B",
+      "tokens_raw": 972000000000,
+      "change_pct": 22,
+      "change_direction": "up"
     },
     {
-      "rank": 9,
+      "rank": 7,
+      "model_id": "anthropic/claude-opus-4.6",
+      "name": "Claude Opus 4.6",
+      "provider": "anthropic",
+      "tokens": "919B",
+      "tokens_raw": 919000000000,
+      "change_pct": 19,
+      "change_direction": "up"
+    },
+    {
+      "rank": 8,
       "model_id": "google/gemini-2.5-flash",
       "name": "Gemini 2.5 Flash",
       "provider": "google",
-      "tokens": "555B",
-      "tokens_raw": 555000000000,
-      "change_pct": 7,
+      "tokens": "607B",
+      "tokens_raw": 607000000000,
+      "change_pct": 12,
+      "change_direction": "up"
+    },
+    {
+      "rank": 9,
+      "model_id": "moonshotai/kimi-k2.5",
+      "name": "Kimi K2.5",
+      "provider": "moonshotai",
+      "tokens": "575B",
+      "tokens_raw": 575000000000,
+      "change_pct": 1,
       "change_direction": "up"
     },
     {
       "rank": 10,
-      "model_id": "openai/gpt-oss-120b",
-      "name": "gpt-oss-120b",
-      "provider": "openai",
-      "tokens": "498B",
-      "tokens_raw": 498000000000,
-      "change_pct": 20,
-      "change_direction": "up"
+      "model_id": "x-ai/grok-4.1-fast",
+      "name": "Grok 4.1 Fast",
+      "provider": "x-ai",
+      "tokens": "500B",
+      "tokens_raw": 500000000000,
+      "change_pct": 6,
+      "change_direction": "down"
     },
     {
       "rank": 11,
-      "model_id": "arcee-ai/trinity-large-preview:free",
-      "name": "Trinity Large Preview (free)",
-      "provider": "arcee-ai",
-      "tokens": "476B",
-      "tokens_raw": 476000000000,
-      "change_pct": 14,
-      "change_direction": "down"
-    },
-    {
-      "rank": 12,
-      "model_id": "anthropic/claude-sonnet-4.5",
-      "name": "Claude Sonnet 4.5",
-      "provider": "anthropic",
-      "tokens": "437B",
-      "tokens_raw": 437000000000,
-      "change_pct": 17,
-      "change_direction": "down"
-    },
-    {
-      "rank": 13,
       "model_id": "google/gemini-2.5-flash-lite",
       "name": "Gemini 2.5 Flash Lite",
       "provider": "google",
-      "tokens": "428B",
-      "tokens_raw": 428000000000,
-      "change_pct": 6,
+      "tokens": "491B",
+      "tokens_raw": 491000000000,
+      "change_pct": 19,
+      "change_direction": "up"
+    },
+    {
+      "rank": 12,
+      "model_id": "openrouter/healer-alpha",
+      "name": "Healer Alpha",
+      "provider": "openrouter",
+      "tokens": "486B",
+      "tokens_raw": 486000000000,
+      "change_pct": 245,
+      "change_direction": "up"
+    },
+    {
+      "rank": 13,
+      "model_id": "nvidia/nemotron-3-super-120b-a12b:free",
+      "name": "Nemotron 3 Super (free)",
+      "provider": "nvidia",
+      "tokens": "450B",
+      "tokens_raw": 450000000000,
+      "change_pct": 457,
       "change_direction": "up"
     },
     {
       "rank": 14,
-      "model_id": "openai/gpt-5-nano",
-      "name": "GPT-5 Nano",
-      "provider": "openai",
-      "tokens": "316B",
-      "tokens_raw": 316000000000,
-      "change_pct": 21,
+      "model_id": "xiaomi/mimo-v2-flash",
+      "name": "MiMo-V2-Flash",
+      "provider": "xiaomi",
+      "tokens": "449B",
+      "tokens_raw": 449000000000,
+      "change_pct": 216,
       "change_direction": "up"
     },
     {
       "rank": 15,
-      "model_id": "google/gemini-3.1-pro-preview",
-      "name": "Gemini 3.1 Pro Preview",
-      "provider": "google",
-      "tokens": "280B",
-      "tokens_raw": 280000000000,
-      "change_pct": 55,
-      "change_direction": "up"
+      "model_id": "openai/gpt-oss-120b",
+      "name": "gpt-oss-120b",
+      "provider": "openai",
+      "tokens": "388B",
+      "tokens_raw": 388000000000,
+      "change_pct": 25,
+      "change_direction": "down"
     },
     {
       "rank": 16,
-      "model_id": "z-ai/glm-5",
-      "name": "GLM 5",
-      "provider": "z-ai",
-      "tokens": "276B",
-      "tokens_raw": 276000000000,
-      "change_pct": 17,
+      "model_id": "arcee-ai/trinity-large-preview:free",
+      "name": "Trinity Large Preview (free)",
+      "provider": "arcee-ai",
+      "tokens": "381B",
+      "tokens_raw": 381000000000,
+      "change_pct": 23,
       "change_direction": "down"
     },
     {
       "rank": 17,
-      "model_id": "xiaomi/mimo-v2-flash",
-      "name": "MiMo-V2-Flash",
-      "provider": "xiaomi",
-      "tokens": "244B",
-      "tokens_raw": 244000000000,
-      "change_pct": 266,
-      "change_direction": "up"
-    },
-    {
-      "rank": 18,
-      "model_id": "anthropic/claude-haiku-4.5",
-      "name": "Claude Haiku 4.5",
-      "provider": "anthropic",
-      "tokens": "243B",
-      "tokens_raw": 243000000000,
-      "change_pct": 24,
-      "change_direction": "up"
-    },
-    {
-      "rank": 19,
-      "model_id": "openrouter/hunter-alpha",
-      "name": "Hunter Alpha",
-      "provider": "openrouter",
-      "tokens": "214B",
-      "tokens_raw": 214000000000,
+      "model_id": "z-ai/glm-5-turbo",
+      "name": "GLM 5 Turbo",
+      "provider": "z-ai",
+      "tokens": "374B",
+      "tokens_raw": 374000000000,
       "change_pct": 0,
       "change_direction": "none"
     },
     {
+      "rank": 18,
+      "model_id": "google/gemini-3.1-flash-lite-preview",
+      "name": "Gemini 3.1 Flash Lite Preview",
+      "provider": "google",
+      "tokens": "370B",
+      "tokens_raw": 370000000000,
+      "change_pct": 176,
+      "change_direction": "up"
+    },
+    {
+      "rank": 19,
+      "model_id": "anthropic/claude-sonnet-4.5",
+      "name": "Claude Sonnet 4.5",
+      "provider": "anthropic",
+      "tokens": "351B",
+      "tokens_raw": 351000000000,
+      "change_pct": 27,
+      "change_direction": "down"
+    },
+    {
       "rank": 20,
-      "model_id": "openai/gpt-5.4",
-      "name": "GPT-5.4",
-      "provider": "openai",
-      "tokens": "208B",
-      "tokens_raw": 208000000000,
-      "change_pct": 647,
+      "model_id": "z-ai/glm-5",
+      "name": "GLM 5",
+      "provider": "z-ai",
+      "tokens": "312B",
+      "tokens_raw": 312000000000,
+      "change_pct": 20,
       "change_direction": "up"
     }
   ],
@@ -210,40 +210,40 @@
       "name": "OpenClaw",
       "url": "https://openclaw.ai/",
       "description": "The AI that actually does things",
-      "tokens": "495B",
-      "tokens_raw": 495000000000
+      "tokens": "828B",
+      "tokens_raw": 828000000000
     },
     {
       "rank": 2,
       "name": "Kilo Code",
       "url": "https://kilocode.ai/",
       "description": "AI coding agent for VS Code",
-      "tokens": "176B",
-      "tokens_raw": 176000000000
+      "tokens": "181B",
+      "tokens_raw": 181000000000
     },
     {
       "rank": 3,
       "name": "Claude Code",
       "url": "https://claude.ai/",
       "description": "The AI for problem solvers",
-      "tokens": "81.2B",
-      "tokens_raw": 81200000000
+      "tokens": "89.9B",
+      "tokens_raw": 89900000000
     },
     {
       "rank": 4,
       "name": "Descript",
       "url": "https://descript.com/",
       "description": "AI Video & Podcast Editor",
-      "tokens": "44.6B",
-      "tokens_raw": 44600000000
+      "tokens": "47B",
+      "tokens_raw": 47000000000
     },
     {
       "rank": 5,
       "name": "Janitor AI",
       "url": "https://janitorai.com/",
       "description": "Character chat and creation",
-      "tokens": "32B",
-      "tokens_raw": 32000000000
+      "tokens": "35.7B",
+      "tokens_raw": 35700000000
     },
     {
       "rank": 6,
@@ -255,35 +255,35 @@
     },
     {
       "rank": 7,
-      "name": "ISEKAI ZERO",
-      "url": "https://www.isekai.world/",
-      "description": "AI adventures. Travel with your favorite characters",
-      "tokens": "25B",
-      "tokens_raw": 25000000000
-    },
-    {
-      "rank": 8,
       "name": "Roo Code",
       "url": "https://github.com/RooVetGit/Roo-Cline",
       "description": "A whole dev team of AI agents in your editor",
-      "tokens": "22.6B",
-      "tokens_raw": 22600000000
+      "tokens": "21.5B",
+      "tokens_raw": 21500000000
+    },
+    {
+      "rank": 8,
+      "name": "ISEKAI ZERO",
+      "url": "https://www.isekai.world/",
+      "description": "AI adventures. Travel with your favorite characters",
+      "tokens": "20.9B",
+      "tokens_raw": 20900000000
     },
     {
       "rank": 9,
-      "name": "Lemonade",
-      "url": "https://lemonade.gg/",
-      "description": "The AI tool for Roblox games.",
+      "name": "Hermes Agent",
+      "url": "https://hermes-agent.nousresearch.com/",
+      "description": "",
       "tokens": "15.9B",
       "tokens_raw": 15900000000
     },
     {
       "rank": 10,
-      "name": "SillyTavern",
-      "url": "https://sillytavern.app/",
-      "description": "LLM frontend for power users",
-      "tokens": "7.86B",
-      "tokens_raw": 7860000000
+      "name": "Lemonade",
+      "url": "https://lemonade.gg/",
+      "description": "The AI tool for Roblox games.",
+      "tokens": "10.1B",
+      "tokens_raw": 10100000000
     }
   ],
   "market_share": [],
