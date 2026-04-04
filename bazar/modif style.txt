@@ -1,0 +1,112 @@
+	
+#titlebar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: var(--titlebar-h);
+    background: #0066cc;
+    border-bottom: 1px solid var(--border);
+    padding: 0 0 0 8px;
+    flex-shrink: 0;
+    cursor: default;
+}
+
+.titlebar-title {
+    font-size: 12px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+:root {
+    --bg: #f4f4f7;
+    --bg-sidebar: #EDEDF0;
+    --bg-hover: #DCDCE4;
+    --bg-active: #C8D0E8;
+    --bg-titlebar: #E8E8EC;
+    --border: #C8C8D0;
+    --card-bg: #ffffff;
+    --card-border: #DDDDE3;
+    --text: #1A1A1A;
+    --text-secondary: #666666;
+    --accent: #0066CC;
+    --btn-close: #E81123;
+    --font: '"Roboto Mono", monospace', system-ui, -apple-system, sans-serif;
+    --sidebar-width: 250px;
+    --titlebar-h: 32px;
+    --menubar-h: 24px;
+    --statusbar-h: 22px;
+}
+
+
+carte home page :
+home-panel-header : fond #c8c8d0
+panel-row : blanc
+panel-row-name : noir
+panel-row-value : #0066cc 
+.panel-row-provider {
+    font-size: 10px;
+    color: #000000;
+    background: #f1f1f1;
+    border: 1px solid #a3a3a3;
+    border-radius: 3px;
+    padding: 1px 5px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+Home hero
+RouterDex police : #0066cc
+sous titre noir
+
+statut bar en bas 
+fond #0066cc
+police blanc
+status-online : #00f939
+status-offline : #ff0000
+
+#search-input {
+    width: 100%;
+    padding: 5px 8px;
+    border: 1px solid var(--border);
+    border-radius: 3px;
+    font-family: var(--font);
+    font-size: 12px;
+    background: #ffffff;
+    color: var(--text);
+    outline: none;
+}
+
+.sidebar-nav-item.active
+Specificity: (0,2,0)
+ {
+    background: #0066cc;  // voir pour le hover comme Compare
+    color: #ffffff;
+    font-weight: 600;
+}
+
+#sidebar
+Specificity: (1,0,0)
+ {
+    width: var(--sidebar-width);
+    min-width: 180px;
+    max-width: 400px;
+    background: #f4f4f7;
+    border-right: 1px solid var(--border);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+#resize-handle
+Specificity: (1,0,0)
+ {
+    width: 4px;
+    background: #c8c8d0;
+    cursor: col-resize;
+    flex-shrink: 0;
+    transition: background 150ms ease;
+}
+

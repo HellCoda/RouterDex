@@ -1,0 +1,36 @@
+Check de l'app :
+
+les boutons de la barre de taches en haut :
+
+files : refresh ok, export json rien, quitter revoi rien normal pour l'instant
+
+view : home ok, all models ok, free models ok, by category ok
+
+aide : à propos ok, documentation Openrouter ok revoie vers le lien.
+
+Je suppose que les boutons réduire, agrandir, fermer, quitter, à propos : fonctionnerons après avec app Rust?
+
+la barre de recherche c'est bon
+
+le volet gauche c'est bon
+
+Le style c'est cohérent simple, on reste blanc mais gris plus sympa ?
+
+La présentation accueil a revoir :
+
+les cartes 346 modèles 57 fournisseurs 27 gratuits 129 multimodales ces cartes là on peut les enlever. Titre RouterDex AI Models Cataloque - OpenRouter (centrer milieu).
+
+Pour les cartes : il faut revoir la disposition on pourrait faire une disposition en grille genre 3x3 mais (responsive) on auras :
+latest models, Free models, Top context Window, Multimodal, text, audio, image, video, (j'amerais avoir un leadboard des meillieurs models, avec filtre catégorie, price. mais faut trouver une autre API simple qui est mise à jour (https://huggingface.co/spaces/ArtificialAnalysis/LLM-Performance-Leaderboard) si trop compliqué on laisse. Ce qui ferais 8 panneaux bien agencer, et dans chaque carte scroll avec les 20 premiers models. 
+
+Il faut revoir la disposition aussi quand on est sur un model choisie 
+
+Pareil pour la comparaison.
+
+Sous forme de carte en grille mieux agencer.
+
+Autre chose comparer des modèles entre eux dans le volet gauche on coches des modèles et on a un affichage en grille pour les comparer 4 models max.      
+
+mettre les logos des provider si il faut les trouver en svg je vais le faire. 
+
+l'app entière reste en anglais
